@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg" width="242" height="100" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock;">
+	<g id="part" title="part_0" ie-ports="left:simulink*simulink*simulink,top:,right:simulink,bottom:">
+		<math id="equation" class="equation" height="54.2" width="205.34" x="22.33" y="24.4" style="font-size:17px; scalingFactors:1">
+			$$\frac{dp_1}{dt} = \frac{K}{V_{01} + A_1 x} (Q_u - A_1 v)
+			$$		</math>
+	</g>
+</svg>
