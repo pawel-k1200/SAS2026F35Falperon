@@ -1,0 +1,297 @@
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  NACA 64A210                                     
+
+ Number of input coordinate points:  51
+ Counterclockwise ordering
+ Max thickness =     0.099915  at x =   0.399
+ Max camber    =     0.012985  at x =   0.550
+
+  LE  x,y  =  -0.00003   0.00063  |   Chord =   1.00003
+  TE  x,y  =   1.00000   0.00000  |
+
+ Current airfoil nodes set from buffer airfoil nodes (  51 )
+
+ WARNING: Poor input coordinate distribution
+          Excessive panel angle   64.1  at i =  26
+          Repaneling with PANE and/or PPAR suggested
+           (doing GDES,CADD before repaneling _may_
+            improve excessively coarse LE spacing
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+  i       x        y      angle
+   2   0.9503   0.0078   -0.019
+   3   0.9005   0.0155    0.185
+   4   0.8507   0.0230    0.191
+   5   0.8008   0.0304    0.821
+   6   0.7506   0.0370    0.636
+   7   0.7005   0.0431    0.749
+   8   0.6504   0.0485    0.806
+   9   0.6003   0.0532    0.909
+  10   0.5501   0.0571    1.036
+  11   0.4999   0.0601    1.208
+  12   0.4498   0.0621    1.460
+  13   0.3995   0.0627    1.689
+  14   0.3494   0.0619    1.438
+  15   0.2992   0.0598    1.367
+  16   0.2490   0.0566    1.455
+  17   0.1989   0.0520    1.723
+  18   0.1487   0.0459    2.162
+  19   0.0987   0.0379    2.323
+  20   0.0737   0.0329    2.184
+  21   0.0487   0.0269    4.036
+  22   0.0239   0.0190    6.516
+  23   0.0115   0.0134    7.272
+  24   0.0066   0.0104    6.547
+  25   0.0042   0.0086   25.692
+  26   0.0000   0.0000   64.097
+  27   0.0058  -0.0074   23.519
+  28   0.0083  -0.0089    6.051
+  29   0.0135  -0.0110    6.267
+  30   0.0261  -0.0147    5.383
+  31   0.0513  -0.0196    3.012
+  32   0.0763  -0.0232    1.543
+  33   0.1013  -0.0260    1.557
+  34   0.1513  -0.0303    1.366
+  35   0.2012  -0.0334    1.097
+  36   0.2510  -0.0355    0.918
+  37   0.3008  -0.0369    0.896
+  38   0.3507  -0.0374    0.966
+  39   0.4004  -0.0372    1.242
+  40   0.4502  -0.0358    1.034
+  41   0.5001  -0.0335    0.756
+  42   0.5499  -0.0306    0.583
+  43   0.5997  -0.0272    0.387
+  44   0.6496  -0.0234    0.238
+  45   0.6995  -0.0194    0.043
+  46   0.7494  -0.0154   -0.305
+  47   0.7992  -0.0117   -0.777
+  48   0.8493  -0.0086   -0.241
+  49   0.8995  -0.0057   -0.139
+  50   0.9497  -0.0030   -0.023
+
+ Maximum panel corner angle = 64.097   at  i,x,y  =  26   0.0000   0.0000
+
+ Enter corner angle criterion for refinement (deg):  32.049
+ Enter type of spline parameter (1=uniform, 2=arclength):   1
+ Enter refinement x limits:  -0.10000   1.10000
+ Number of points added:            2
+ Max thickness =     0.099915  at x =   0.400
+ Max camber    =     0.013070  at x =   0.500
+
+ Maximum panel corner angle = 32.473   at  i,x,y  =  27   0.0000   0.0000
+
+.GDES   c>  
+  Top    surface:  y =  0.0432     y/t = 1.0
+  Bottom surface:  y = -0.0194     y/t = 0.0
+
+ Flap hinge: x,y =  0.70000  0.02000
+
+ Top breaks: x,y =    0.70265  0.04286      0.70265  0.04286
+ Bot breaks: x,y =    0.69082 -0.02014      0.71550 -0.01814
+ SCHECK segment removed at            7
+ Max thickness =     0.101769  at x =   0.381
+ Max camber    =     0.134463  at x =   0.702
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes (  55 )
+
+.GDES   c>  
+ XFOIL   c>  
+.OPERi   c>  
+.OPERi   c>   Calculating unit vorticity distributions ...
+
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.038460  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.250741  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.629148  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.039412  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.256586  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.649007  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.040257  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.261766  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.667284  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.040991  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.266258  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.683890  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.041611  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.270038  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.698745  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042114  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.273088  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.711776  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042496  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.275394  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.722919  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042758  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.276945  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.732120  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042896  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.277732  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.739334  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042910  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.277752  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.744527  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042801  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.277005  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.747673  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042569  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.275494  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.748756  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+.OPERi   c>  
+ Flap hinge x,y :  0.7000  0.0200
+                                           2  2
+ Hinge moment/span = 0.042214  x  1/2 rho V  c 
+                                           2   
+ x-Force     /span = 0.273227  x  1/2 rho V  c 
+                                           2   
+ y-Force     /span = 0.747771  x  1/2 rho V  c 
+
+
+.OPERi   c>  
+ XFOIL   c>  

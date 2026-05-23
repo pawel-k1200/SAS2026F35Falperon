@@ -1,0 +1,39 @@
+load NACA_64A210.txt
+gdes
+cadd
+
+
+
+flap 0.7 0.02 35.000000
+exec
+
+oper
+iter 250
+alfa -10
+fmom 0.7 0.02
+alfa -8
+fmom 0.7 0.02
+alfa -6
+fmom 0.7 0.02
+alfa -4
+fmom 0.7 0.02
+alfa -2
+fmom 0.7 0.02
+alfa 0
+fmom 0.7 0.02
+alfa 2
+fmom 0.7 0.02
+alfa 4
+fmom 0.7 0.02
+alfa 6
+fmom 0.7 0.02
+alfa 8
+fmom 0.7 0.02
+alfa 10
+fmom 0.7 0.02
+alfa 12
+fmom 0.7 0.02
+alfa 14
+fmom 0.7 0.02
+
+quit
