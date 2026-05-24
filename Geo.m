@@ -11,7 +11,7 @@ L2 = 42.7;
  
 
 x_actuator = linspace(-20, 22, 40);
-beta_array = zeros(1, length(x_actuator));
+ailreon_deflection_angle = zeros(1, length(x_actuator));
 
 syms x_2 y_2 real 
 
@@ -30,12 +30,12 @@ for i = 1:length(x_actuator)
      
         x2_val = x_opts(2);
         y2_val = y_opts(2);
-        beta_array(i) = -atan2d(y2_val - Y3, x2_val -X3);
+        ailreon_deflection_angle(i) = -atan2d(y2_val - Y3, x2_val -X3);
     end
 
 % Plotting
 figure;
-plot(x_actuator, beta_array, 'b-', 'LineWidth', 2);
+plot(x_actuator, ailreon_deflection_angle, 'b-', 'LineWidth', 2);
 grid on;
 xlabel('Actuator Position (x\_actuator)');
 ylabel('Aileron Angle (\beta) [degrees]');
