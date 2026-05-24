@@ -4,36 +4,36 @@ cadd
 
 
 
-flap 0.7 0.02 35.000000
+flap 0.700000 0.020000 35.000000
 exec
 
 oper
 iter 250
 alfa -10
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa -8
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa -6
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa -4
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa -2
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 0
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 2
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 4
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 6
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 8
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 10
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 12
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 alfa 14
-fmom 0.7 0.02
+fmom 0.700000 0.020000
 
 quit
