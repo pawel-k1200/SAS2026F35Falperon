@@ -33,7 +33,8 @@ for i = 1:length(x_actuator)
         ailreon_deflection_angle(i) = -atan2d(y2_val - Y3, x2_val -X3);
     end
 
-% Plotting
+
+    
 figure;
 plot(x_actuator, ailreon_deflection_angle, 'b-', 'LineWidth', 2);
 grid on;
